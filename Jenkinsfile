@@ -7,7 +7,7 @@ pipeline {
    //environment setup for the image
    environment{
     //imageName = "nancysilviya/storyreactapp" //docker_usrname/any_name
-    imageName = "nancysilviya/react-app"
+    imageName = "nancysilviya/jenkins-latest ."
     registryCredential = 'nancysilviya' //for credential
     dockerImage = '' //palceholder_hold the instance of the docker image
    }
