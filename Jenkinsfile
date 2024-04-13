@@ -7,7 +7,7 @@ pipeline {
    //environment setup for the image
    environment{
     //imageName = "nancysilviya/storyreactapp" //docker_usrname/any_name
-    imageName = "nancysilviya/jenkinskube-latest"
+    imageName = "nancysilviya/jenkinskubeapp"
     registryCredential = 'nancysilviya' //for credential
     dockerImage = '' //palceholder_hold the instance of the docker image
    }
